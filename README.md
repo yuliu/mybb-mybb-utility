@@ -10,6 +10,7 @@ Only for test purpose.
 
  - BASH
  - wget (and Internet connection, if you want to use [mybb.com](https://mybb.com/))
+ - unzip
 
 # Workable functions
 
