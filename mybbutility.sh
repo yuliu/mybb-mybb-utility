@@ -1741,7 +1741,7 @@ function _cmd_update() {
 		do_print_msg 'info' "${#_MYBB_FILELIST_CREATED[@]} new file(s) were created in the MyBB instance:"
 		for i in "${_MYBB_FILELIST_CREATED[@]}"
 		do
-			do_print_msg 'info' "  ${mybb_destination_dir}/${i: 2}"
+			do_print_msg 'info' "  ${i}"
 		done
 	fi
 
